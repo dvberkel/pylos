@@ -3,6 +3,7 @@ Exploring the math behind the game [pylos][].
 
 ## Pylos
 ![Pylos by Gigamic](http://en.gigamic.com/files/catalog/products/images/product/gigamic_gdpy_pylos-mini-white_boxgame_web.jpg)
+
 Pylos is a game by David G. Royffe produced by [Gigamic][gigamic]. The description reads
 
 > Simple rules, quick rounds and rather subtle tactics: Pylos is one of the strangest yet
