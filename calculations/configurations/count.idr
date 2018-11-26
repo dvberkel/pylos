@@ -1,6 +1,7 @@
 module Configuration
 
 import Data.Vect
+import Data.Fin
 
 data State = UnOccupied
            | Occupied
@@ -18,3 +19,10 @@ emptySquare n = times n (times n UnOccupied)
 empty : (n : Nat) -> Square n
 empty n = Create (emptySquare n)
 
+update : (Fin n, Fin n) -> State -> Vect n (Vect n State) -> Vect n (Vect n State)
+update x y xs = xs
+
+
+play : (Fin n, Fin n) -> Square n -> Square n
+play (a, b) (Create xs) = let ys = update (a, b) Occupied xs in
+     Create ys
